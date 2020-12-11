@@ -5,8 +5,7 @@ A boilerplate for WordPress theme development using [TailwindCSS](https://tailwi
 1. Clone into an empty theme directory
 1. `cd` into your new theme directory
 1. Run `npm install`
-1. Duplicate the `local-example.json` file to `local.json`, then replace the `proxy` value with your local 
-development hostname
+1. Duplicate the `local-example.json` file to `local.json`, then replace the `proxy` value with your local development hostname
    - This will allow you to use live reload/injection while working on your CSS/JS
 1. Run a search & replace across the theme to replace all instances of 'WpTailwindCssThemeBoilerplate' with a PHP 
 namespace specific to your theme/project
@@ -30,7 +29,7 @@ Runs the product build which includes asset file versioning and Purge CSS
 
 ## Versioned Assets
 
-Versioned assets will appear in a `build` directory alongside a manifest file which is used while 
+Versioned assets will appear in a `assets` directory alongside a manifest file which is used while 
 [enqueuing scripts and styles](https://github.com/mishterk/wp-laravel-mix-theme-boilerplate/blob/master/includes/scripts-and-styles.php).
 This saves you the need to adjust version parameters on your assets and makes it possible to remove parameters on 
 asset URLs without losing the ability to force those assets to update in browsers.
