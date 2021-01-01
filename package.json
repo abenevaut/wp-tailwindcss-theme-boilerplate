@@ -17,7 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.12",
-    "browser-sync-webpack-plugin": "^2.2.2",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "cross-env": "^5.2.0",
     "fs": "0.0.1-security",
     "glob-all": "^3.2.1",
